@@ -1,0 +1,69 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth Scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+
+body {
+  background: #020617;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Root */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons */
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Inputs */
+
+input,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* Container */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
