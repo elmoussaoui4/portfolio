@@ -16,25 +16,26 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: .8 }}
         >
-          <p className="hello">👋 Hello, I'm</p>
+          <p className="hello">👋 Bonjour, je suis</p>
 
           <h1>
             Mehdi
             <span> El Moussaoui</span>
           </h1>
 
-          <h2>Full Stack Web Developer</h2>
+          <h2>Développeur Web Full Stack</h2>
 
           <p className="description">
-            I build modern, responsive and high-performance web applications
-            using React, Laravel, PostgreSQL and Docker. Passionate about
-            creating clean UI and scalable backend solutions.
+            Je conçois des applications web modernes, responsives et
+            performantes en utilisant React, Laravel, PostgreSQL et Docker.
+            Passionné par la création d'interfaces soignées et de solutions
+            backend évolutives.
           </p>
 
           <div className="hero-buttons">
 
             <a href="#projects" className="btn-primary">
-              View Projects
+              Voir mes projets
             </a>
 
             {/* <a
@@ -43,7 +44,7 @@ const Hero = () => {
               rel="noreferrer"
               className="btn-secondary"
             >
-              Download CV
+              Télécharger le CV
             </a> */}
 
           </div>
@@ -78,7 +79,7 @@ const Hero = () => {
 
           <img
             src="/M.jpg"
-            alt="Profile"
+            alt="Profil"
           />
         </motion.div>
 

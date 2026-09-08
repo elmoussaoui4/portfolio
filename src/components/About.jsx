@@ -11,22 +11,22 @@ const cards = [
   {
     icon: <FaLaptopCode size={32} />,
     title: "Frontend",
-    description: "Building responsive and interactive interfaces with React.",
+    description: "Création d'interfaces responsives et interactives avec React.",
   },
   {
     icon: <FaCode size={32} />,
     title: "Backend",
-    description: "Developing REST APIs and web applications using Laravel.",
+    description: "Développement d'API REST et d'applications web avec Laravel.",
   },
   {
     icon: <FaDatabase size={32} />,
-    title: "Database",
-    description: "Working with PostgreSQL, MySQL and MongoDB.",
+    title: "Base de données",
+    description: "Travail avec PostgreSQL, MySQL et MongoDB.",
   },
   {
     icon: <FaDocker size={32} />,
     title: "DevOps",
-    description: "Using Docker and Linux to build scalable environments.",
+    description: "Utilisation de Docker et Linux pour créer des environnements évolutifs.",
   },
 ];
 
@@ -43,8 +43,8 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: .7 }}
         >
-          <p>About Me</p>
-          <h2>Who am I?</h2>
+          <p>À propos de moi</p>
+          <h2>Qui suis-je ?</h2>
           <div className="line"></div>
         </motion.div>
 
@@ -58,30 +58,30 @@ const About = () => {
             transition={{ duration: .8 }}
           >
 
-            <h3>Full Stack Web Developer</h3>
+            <h3>Développeur Web Full Stack</h3>
 
             <p>
-              I'm Mehdi El Moussaoui, a passionate Full Stack Developer from
-              Morocco. I enjoy creating modern, responsive and scalable web
-              applications with React, Laravel, PostgreSQL and Docker.
+              Je suis Mehdi El Moussaoui, un développeur Full Stack passionné
+              basé au Maroc. J'aime créer des applications web modernes,
+              responsives et évolutives avec React, Laravel, PostgreSQL et Docker.
             </p>
 
             <p>
-              I love learning new technologies, solving real-world problems,
-              and building applications with clean code and great user
-              experience.
+              J'aime apprendre de nouvelles technologies, résoudre des
+              problèmes concrets et développer des applications avec un code
+              propre et une excellente expérience utilisateur.
             </p>
 
             <div className="stats">
 
               <div className="stat-card">
                 <h4>3+</h4>
-                <span>Projects Completed</span>
+                <span>Projets réalisés</span>
               </div>
 
               <div className="stat-card">
                 <h4>2+</h4>
-                <span>Years Learning</span>
+                <span>Années d'apprentissage</span>
               </div>
 
             </div>

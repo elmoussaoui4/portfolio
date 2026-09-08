@@ -5,27 +5,27 @@ import "./Experience.css";
 const experiences = [
   {
     icon: <FaBriefcase />,
-    title: "Full Stack Developer Intern",
+    title: "Stagiaire Développeur Full Stack",
     company: "Duo Info",
     date: "2026",
     description:
-      "Participated in the development of DuoInfoNexus, a centralized management platform. Worked with Laravel, React, PostgreSQL and Docker while building responsive interfaces and backend features.",
+      "Participation au développement de DuoInfoNexus, une plateforme de gestion centralisée. Travail avec Laravel, React, PostgreSQL et Docker pour créer des interfaces responsives et développer des fonctionnalités backend.",
   },
   {
     icon: <FaBriefcase />,
-    title: "Personal Projects",
-    company: "Self Learning",
-    date: "2024 - Present",
+    title: "Projets personnels",
+    company: "Autoformation",
+    date: "2024 - Présent",
     description:
-      "Built several full-stack applications including inventory management systems, portfolio websites and a gym management system.",
+      "Réalisation de plusieurs applications Full Stack, notamment des systèmes de gestion de stock, des sites portfolio et un système de gestion de salle de sport.",
   },
   {
     icon: <FaGraduationCap />,
-    title: "Personal Projects",
-    company: "Self Learning",
-    date: "2024 - Present",
+    title: "Projets personnels",
+    company: "Autoformation",
+    date: "2024 - Présent",
     description:
-      "Developed several personal projects including a Portfolio Website and a Gym Management System to improve my practical skills.",
+      "Développement de plusieurs projets personnels, notamment un site Portfolio et un système de gestion de salle de sport, afin d'améliorer mes compétences pratiques.",
   },
 ];
 
@@ -41,8 +41,8 @@ const Experience = () => {
           transition={{ duration: .6 }}
           className="experience-title"
         >
-          <p>Experience</p>
-          <h2>My Journey</h2>
+          <p>Expérience</p>
+          <h2>Mon parcours</h2>
           <div className="line"></div>
         </motion.div>
 

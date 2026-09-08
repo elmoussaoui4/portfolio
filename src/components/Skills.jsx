@@ -7,7 +7,7 @@ import {
   FaLaravel,
   FaGitAlt,
   FaDocker,
-  FaLinux,
+  FaJava,
 } from "react-icons/fa";
 
 import {
@@ -34,6 +34,11 @@ const skills = [
     name: "JavaScript",
     icon: <FaJs color="#F7DF1E" size={55} />,
     level: 50,
+  },
+  {
+    name: "Java",
+    icon: <FaJava color="#ED8B00" size={55} />,
+    level: 40,
   },
   {
     name: "React",
@@ -75,11 +80,6 @@ const skills = [
     icon: <FaDocker color="#2496ED" size={55} />,
     level: 65,
   },
-  {
-    name: "Linux",
-    icon: <FaLinux color="#ffffff" size={55} />,
-    level: 50,
-  },
 ];
 
 const Skills = () => {
@@ -94,8 +94,8 @@ const Skills = () => {
           viewport={{ once: true }}
           transition={{ duration: .7 }}
         >
-          <p>My Skills</p>
-          <h2>Technologies I Use</h2>
+          <p>Mes compétences</p>
+          <h2>Technologies que j'utilise</h2>
           <div className="line"></div>
         </motion.div>
 

@@ -27,11 +27,11 @@ const Contact = () => {
       )
       .then(
         () => {
-          setStatus("✅ Message sent successfully!");
+          setStatus("✅ Message envoyé avec succès !");
           form.current.reset();
         },
         () => {
-          setStatus("❌ Failed to send message.");
+          setStatus("❌ Échec de l'envoi du message.");
         }
       );
   };
@@ -48,7 +48,7 @@ const Contact = () => {
           viewport={{ once: true }}
         >
           <p>Contact</p>
-          <h2>Let's Work Together</h2>
+          <h2>Travaillons ensemble</h2>
           <div className="line"></div>
         </motion.div>
 
@@ -74,7 +74,7 @@ const Contact = () => {
             <div className="info-card">
               <FaPhone className="icon" />
               <div>
-                <h3>Phone</h3>
+                <h3>Téléphone</h3>
                 <p>+212 7 12 95 40 34</p>
               </div>
             </div>
@@ -82,8 +82,8 @@ const Contact = () => {
             <div className="info-card">
               <FaMapMarkerAlt className="icon" />
               <div>
-                <h3>Location</h3>
-                <p>Fès, Morocco</p>
+                <h3>Localisation</h3>
+                <p>Fès, Maroc</p>
               </div>
             </div>
 
@@ -123,33 +123,33 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder="Votre nom"
               required
             />
 
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Votre adresse e-mail"
               required
             />
 
             <input
               type="text"
               name="title"
-              placeholder="Subject"
+              placeholder="Objet"
               required
             />
 
             <textarea
               name="message"
               rows="6"
-              placeholder="Your Message"
+              placeholder="Votre message"
               required
             ></textarea>
 
             <button type="submit">
-              Send Message
+              Envoyer le message
             </button>
 
             {status && <p className="status">{status}</p>}

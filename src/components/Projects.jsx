@@ -4,10 +4,10 @@ import "./Projects.css";
 
 const projects = [
   {
-    title: "Une plateforme web de gestion centralisée ",
+    title: "Une plateforme web de gestion centralisée",
     image: "/projects/duoinfonexus.png",
     description:
-      "A centralized management platform developed during my internship to manage products, categories, stock movements and users with a modern dashboard.",
+      "Une plateforme de gestion centralisée développée lors de mon stage pour gérer les produits, les catégories, les mouvements de stock et les utilisateurs à travers un tableau de bord moderne.",
     tech: ["Laravel", "React", "PostgreSQL", "Docker"],
     report: "/reports/Rapport_Mehdi_El_Moussaoui.pdf",
   },
@@ -15,15 +15,15 @@ const projects = [
     title: "Système de Gestion de Salle de Sport",
     image: "/projects/ecommerce.png",
     description:
-      "Complete gym management system that simplifies member registration, subscription management, coach scheduling and payment tracking.",
+      "Un système complet de gestion de salle de sport permettant de simplifier l'inscription des membres, la gestion des abonnements, la planification des coachs et le suivi des paiements.",
     tech: ["Laravel", "MySQL"],
     github: "https://github.com/elmoussaoui4/Systeme_de_Gestion_de_Salle_de_Sport.git",
   },
   {
-    title: "Portfolio Website",
+    title: "Site Portfolio",
     image: "/projects/portfolio.png",
     description:
-      "My personal portfolio showcasing my projects, technical skills and experience, built with React and modern web technologies.",
+      "Mon portfolio personnel présentant mes projets, mes compétences techniques et mon expérience, développé avec React et des technologies web modernes.",
     tech: ["React", "CSS", "Framer Motion"],
     demo: "#",
   },
@@ -41,8 +41,8 @@ const Projects = () => {
           transition={{ duration: .7 }}
           className="projects-title"
         >
-          <p>My Work</p>
-          <h2>Featured Projects</h2>
+          <p>Mes réalisations</p>
+          <h2>Projets réalisés</h2>
           <div className="line"></div>
         </motion.div>
 
@@ -90,7 +90,7 @@ const Projects = () => {
                       className="btn-live"
                     >
                       <FaFilePdf />
-                      Raport
+                      Rapport
                     </a>
                   )}
 
@@ -114,7 +114,7 @@ const Projects = () => {
                       className="btn-live"
                     >
                       <FaExternalLinkAlt />
-                      Live
+                      Démo
                     </a>
                   )}
                 </div>

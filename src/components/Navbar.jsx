@@ -8,11 +8,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const links = [
-    { name: "Home", to: "home" },
-    { name: "About", to: "about" },
-    { name: "Skills", to: "skills" },
-    { name: "Projects", to: "projects" },
-    { name: "Experience", to: "experience" },
+    { name: "Accueil", to: "home" },
+    { name: "À propos", to: "about" },
+    { name: "Compétences", to: "skills" },
+    { name: "Projets", to: "projects" },
+    { name: "Expérience", to: "experience" },
     { name: "Contact", to: "contact" },
   ];
 
@@ -50,7 +50,7 @@ const Navbar = () => {
           rel="noreferrer"
           className="resume-btn"
         >
-          Download CV
+          Télécharger le CV
         </a>
 
         <button
@@ -89,7 +89,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Download CV
+                Télécharger le CV
               </a>
             </li>
           </ul>
