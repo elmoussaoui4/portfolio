@@ -45,7 +45,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="/cv.pdf"
+          href="/CV_ELMOUSSAOUI_MEHDI.pdf"
           target="_blank"
           rel="noreferrer"
           className="resume-btn"
