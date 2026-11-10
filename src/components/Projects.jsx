@@ -27,6 +27,14 @@ const projects = [
     tech: ["React", "CSS", "Framer Motion"],
     demo: "#",
   },
+  {
+    title: "Une plateforme web de gestion de stock",
+    image: "/projects/stock.png",
+    description:
+      "Gestion-Stock est une application web de point de vente et de gestion de stock, qui permet à un petit commerçant de gérer ses produits, enregistrer ses ventes et suivre automatiquement son bénéfice, le tout protégé par un code d’accès.",
+    tech: ["Laravel", "React", "MySQL", "API"],
+    report: "/reports/Projet_Gestion.pdf",
+  },
 ];
 
 const Projects = () => {
